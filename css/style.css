@@ -6,6 +6,7 @@ Author URL : https://themeforest.net/user/astylers
 
 */
 
+
 /*
 
 Table of Content:
@@ -31,10 +32,13 @@ Table of Content:
 
 */
 
+
 /* fonts */
+
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900");
 
 /* general */
+
 body {
     background: #fff;
     color: #242424;
@@ -103,7 +107,9 @@ p {
     background: #f5f3fd;
 }
 
+
 /* button */
+
 .button {
     background: #ffc239;
     padding: 12px 30px;
@@ -126,12 +132,16 @@ p {
     color: #fff !important;
 }
 
+
 /* loader */
+
 .spinner4 {
     background: #ffc239;
 }
 
+
 /* navbar */
+
 .navbar {
     padding: 10px 0;
     transition: .5s ease-out;
@@ -204,9 +214,11 @@ p {
     background: transparent !important;
 }
 
+
 /* haader title */
+
 .header-title {
-    background: linear-gradient(rgba(255, 194, 57, 0.9), rgba(255, 194, 57, 0.9)), url("../images/header.jpg");
+    background: linear-gradient(rgba(255, 194, 57, 0.9), rgba(255, 194, 57, 0.9)), url("../images/pizza.jpg");
     background-position-x: 0%, 0%;
     background-position-y: 0%, 0%;
     background-attachment: scroll, scroll;
@@ -231,7 +243,9 @@ p {
     font-weight: 600;
 }
 
+
 /* about us */
+
 .about {
     padding-bottom: 125px;
 }
@@ -282,15 +296,17 @@ p {
     color: #333 !important;
 }
 
+
 /* home intro */
+
 .wrapper-intro {
-    background: linear-gradient(rgba(0, 0, 0, 0.64), rgba(0, 0, 0, 0.64)), url("../images/bg-intro.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.64), rgba(0, 0, 0, 0.64)), url("../images/pizza.jpg");
     background-position-x: 0%, 0%;
     background-position-y: 0%, 0%;
     background-attachment: scroll, scroll;
     background-size: auto, auto;
     background-position: center;
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -394,7 +410,9 @@ p {
     vertical-align: middle;
 }
 
+
 /* section */
+
 .section {
     padding: 100px 0 120px;
 }
@@ -461,7 +479,9 @@ p {
     width: 100%;
 }
 
+
 /* services */
+
 .services {
     padding: 100px 0 90px;
 }
@@ -522,7 +542,9 @@ p {
     margin: 25px 0 14px;
 }
 
+
 /* our work */
+
 .our-work .content img {
     width: 100%;
     position: relative;
@@ -562,7 +584,9 @@ p {
     transition: all .3s ease;
 }
 
+
 /* pricing */
+
 .pricing .content {
     border-radius: 6px;
     padding: 30px;
@@ -610,7 +634,9 @@ p {
     margin-bottom: 30px;
 }
 
+
 /* features */
+
 .features .content {
     background: #fff;
     border-radius: 6px;
@@ -643,7 +669,9 @@ p {
     overflow: hidden;
 }
 
+
 /* latest blog */
+
 .latest-blog h5 {
     font-weight: 600;
 }
@@ -674,7 +702,9 @@ p {
     transition: .5s ease-out;
 }
 
+
 /* blog */
+
 .blog .content {
     border-radius: 6px;
     margin-bottom: 30px;
@@ -707,7 +737,9 @@ p {
     transition: .5s ease-out;
 }
 
+
 /* pagination */
+
 .pagination ul li {
     display: inline-block;
     margin: 10px;
@@ -731,7 +763,9 @@ p {
     border-color: #ffc239;
 }
 
+
 /* blog single */
+
 .blog-single .content h5 {
     font-size: 24px;
     line-height: 34px;
@@ -809,7 +843,9 @@ p {
     margin-bottom: 30px;
 }
 
+
 /* contact */
+
 .contact .content-office {
     border-left: 4px solid #ffc239;
     padding-left: 30px;
@@ -883,7 +919,9 @@ form textarea {
     color: #aaa;
 }
 
+
 /* testimonial */
+
 .testimonial .carousel-item {
     text-align: center;
     padding: 0 20%;
@@ -911,7 +949,9 @@ form textarea {
     opacity: 1;
 }
 
+
 /* footer */
+
 footer {
     text-align: center;
     background: #111;
@@ -975,224 +1015,177 @@ footer h6 {
     margin-bottom: 28px;
 }
 
+
 /*responsive*/
+
 @media (max-width:991px) {
     .home-intro h2 {
         line-height: 80px;
     }
-
     .home-intro .content::before {
         width: 245px;
     }
-
     .home-intro .content::after {
         width: 245px;
     }
-
     .about .content h3 {
         font-size: 38px;
     }
-
 }
 
 @media (max-width:980px) {
     .navbar .navbar-nav li {
         padding: 0 10px;
     }
-
     .home-intro h2 {
         line-height: 80px;
     }
-
     .features .content:last-child {
         margin-bottom: 30px;
     }
-
     .services .content {
         padding: 20px;
     }
-
     .pricing .content {
         padding: 20px;
     }
-
     .latest-blog .content {
         margin-bottom: 0;
     }
-
     .latest-blod .content.r-980 {
         margin-bottom: 0;
     }
-
     .about .col-md-6 {
         max-width: 100%;
         flex: 100%;
     }
-
     .features .col-md-6 {
         max-width: 100%;
         flex: 100%;
     }
-
 }
 
 @media (max-width:767px) {
     .container {
         padding: 0 14px !important;
     }
-
     .navbar .navbar-toggler i {
         margin-right: 0;
     }
-
     .navbar .navbar-nav {
         background: #0caed4;
         padding-top: 10px;
         padding-bottom: 12px;
     }
-
     .navbar-fixed .navbar-nav {
         background: #fff;
     }
-
     .navbar-fixed .navbar-nav li {
         padding: 0 4px !important;
     }
-
     .navbar .navbar-nav li {
         padding: 0 32px;
     }
-
     .home-intro .content::before {
         width: 168px;
     }
-
     .home-intro .content::after {
         width: 168px;
     }
-
     .pricing .content {
         margin-bottom: 30px;
     }
-
     .pricing .last-content {
         margin-bottom: 0;
     }
-
     .latest-blog .content {
         margin-bottom: 30px;
     }
-
     .latest-blog .content.r-980 {
         margin-bottom: 0;
     }
-
     .blog-single .search {
         margin-top: 30px;
     }
-
     .blog-single .sidebar-link li:last-child {
         margin-bottom: 0;
     }
-
     .contact .content-office {
         margin-bottom: 30px;
     }
-
     .contact form {
         margin-bottom: 75px;
     }
-
     .contact iframe {
         height: 400px !important;
     }
-
     footer p {
         width: 80%;
     }
-
 }
 
 @media (max-width:640px) {
     .services .content {
         margin-bottom: 30px;
     }
-
     .services .col-sm-12:last-child .content {
         margin-bottom: 0;
     }
-
     .pricing .content {
         margin-bottom: 30px;
     }
-
     .pricing .col-sm-12:last-child .content {
         margin-bottom: 0;
     }
-
     .latest-blod .content.r-980 {
         margin-bottom: 0;
     }
-
     .blog-single .search {
         margin-top: 30px;
     }
-
     footer .col-sm-6 {
         margin-top: 50px;
     }
-
 }
 
 @media (max-width:420px) {
     .home-intro .content::before {
         width: 115px;
     }
-
     .home-intro .content::after {
         width: 115px;
     }
-
 }
 
 @media (max-width:480px) {
     .home-intro .content-text {
         padding-left: 30px;
     }
-
     .home-intro h2 {
         font-size: 42px;
         line-height: 60px;
     }
-
     .title-section h3 {
         font-size: 45px;
     }
-
     .about .content-image {
         padding-bottom: 0;
     }
-
     .about .bg-style {
         background: transparent;
     }
-
     .latest-blod .content.r-980 {
         margin-bottom: 0;
     }
-
     .testimonial a i {
         font-size: 30px;
     }
-
     .testimonial .carousel-item {
         padding: 0 15%;
     }
-
     footer .col-12 {
         margin-top: 30px;
     }
-
 }
 
 @media (max-width:360px) {
@@ -1200,9 +1193,7 @@ footer h6 {
         font-size: 36px;
         line-height: 48px;
     }
-
     .latest-blod .content.r-980 {
         margin-bottom: 0;
     }
-
 }
